@@ -1,0 +1,39 @@
+  /*******************
+   * 検索条件部のstyle
+   *******************/
+  .mip-search-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /*******************
+   * 受注状態毎の文字色
+   *******************/
+  .mip-color-matter-prospect {		/* 見込み */
+    color: #E46C0A;
+  }
+  .mip-color-matter-decision {		/* 確定 */
+    color: #0070C0;
+  }
+  .mip-color-matter-completed {		/* 完了 */
+    color: #595959;
+  }
+  .mip-color-matter-failure {		/* 失注 */
+    color: #595959;
+  }
+
+  /*******************
+   * 各部品サイズ（単一項目用）　（注： width=116px未満の場合は×ボタンが表示されません・・・IE仕様）
+   *******************/
+  /* 案件番号 */
+  .mipMatterNo {
+    width: 180px;
+  }
+  /* 得意先名 */
+  .mipCustomerName {
+    width: 360px;
+  }
+  /* 案件名 */
+  .mipMatterName {
+    width: 500px;
+  }

@@ -1,0 +1,1001 @@
+  /*******************
+   * Size Modify
+   *******************/
+  .content-wrapper,
+  .main-footer {
+    margin-left: 200px;
+  }
+  @media (max-width: 767px) {
+    .content-wrapper,
+    .main-footer {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .sidebar-open .content-wrapper,
+    .sidebar-open .main-footer {
+      -webkit-transform: translate(200px, 0);
+      -ms-transform: translate(200px, 0);
+      -o-transform: translate(200px, 0);
+      transform: translate(200px, 0);
+    }
+  }
+  .fixed .content-wrapper,
+  .fixed .right-side {
+    padding-top: 40px;
+  }
+  @media (max-width: 767px) {
+    .fixed .content-wrapper,
+    .fixed .right-side {
+      padding-top: 80px;
+    }
+  }
+  .main-header {
+    max-height: 80px;
+  }
+  .main-header .navbar {
+    margin-left: 200px;
+    min-height: 40px;
+  }
+  .main-header .logo {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .main-sidebar {
+    width: 200px;
+    padding-top: 40px;
+    margin-top: 0px;
+  }
+  @media (max-width: 767px) {
+    .main-header .logo,
+    .main-header .navbar {
+      width: 100%;
+    }
+    .main-header .navbar {
+      margin: 0;
+    }
+    .main-sidebar {
+      padding-top: 80px;
+    }
+  }
+  @media (max-width: 767px) {
+    .main-sidebar {
+      -webkit-transform: translate(-200px, 0);
+      -ms-transform: translate(-200px, 0);
+      -o-transform: translate(-200px, 0);
+      transform: translate(-200px, 0);
+    }
+  }
+  @media (min-width: 768px) {
+    .sidebar-collapse .main-sidebar {
+      -webkit-transform: translate(-200px, 0);
+      -ms-transform: translate(-200px, 0);
+      -o-transform: translate(-200px, 0);
+      transform: translate(-200px, 0);
+    }
+  }
+  .control-sidebar-bg,
+  .control-sidebar {
+    right: -200px;
+    width: 200px;
+  }
+  .control-sidebar {
+    padding-top: 40px;
+  }
+  @media (max-width: 768px) {
+    .control-sidebar {
+      padding-top: 80px;
+    }
+  }
+  @media (min-width: 768px) {
+    .control-sidebar-open .content-wrapper,
+    .control-sidebar-open .right-side,
+    .control-sidebar-open .main-footer {
+      margin-right: 200px;
+    }
+  }
+  .fixed .control-sidebar {
+    padding-bottom: 40px;
+  }
+  .user {
+  }
+
+  /*******************
+   * Color , Font , padding Modify
+   *******************/
+  .skin-blue .main-header .logo {
+    background-color: #404040;	/* [ホーム]（未選択）背景 */
+    font-size: 16px;
+    color: #d9d9d9;				/* [ホーム]（未選択）アイコン＆文字列 */
+  }
+  .skin-blue .main-header .logo:hover {
+    background-color: #dae3f3;	/* [ホーム]（hover）背景 */
+    color: #7070c0;				/* [ホーム]（hover）アイコン＆文字列 */
+  }
+  .skin-blue .main-header .navbar {
+    background-color: #fafafa;	/* ヘッダ背景 */
+  }
+  .skin-blue .main-header .navbar .nav-link {
+    float: left;
+    padding: 10px 15px;
+    color: #7f7f7f;				/* [ハンバーガー]アイコン */
+  }
+  .skin-blue .main-header .navbar .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .skin-blue .main-header .navbar .navbar-custom-menu .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7f7f7f;				/* [ログインユーザ]アイコン＆文字列 */
+  }
+  .skin-blue .wrapper,
+  .skin-blue .left-side {
+    background-color: #404040;	/* 大元のベース（現在、表示される所はない） */
+  }
+  .skin-blue .main-sidebar {
+    background-color: #404040;	/* メニュー部の下の領域 */
+    border: 1px solid #404040;	/* メニューとコンテンツとの隙間 */
+    border-width: 0px 1px 0px 0px;
+  }
+  .skin-blue .main-sidebar .sidebar {
+    background-color: #404040;	/* [メニュー]（未選択）背景 */
+    color: #d9d9d9;				/* [メニュー]（未選択）？？ */
+  }
+  .skin-blue .sidebar a {
+    color: #d9d9d9;				/* [メニュー]（未選択）アイコン＆文字列 */
+  }
+  .skin-blue .sidebar-menu > li.active > a {
+    border-left-color: #2e75b6;	/* [メニュー]（選択中）の左の隙間 */
+  }
+  .skin-blue .sidebar-menu > li.active > a,
+  .skin-blue .sidebar-menu > li.menu-open > a {
+    background-color: #dae3f3;	/* [メニュー]（選択中）背景 */
+    color: #404040;				/* [メニュー]（選択中）アイコン＆文字列 */
+  }
+  .skin-blue .sidebar-menu > li:hover > a {
+    background-color: #dae3f3;	/* [メニュー]（hover）背景 */
+    color: #7070c0;				/* [メニュー]（hover）アイコン＆文字列 */
+  }
+  .skin-blue .sidebar-menu > li > .treeview-menu {
+    background-color: #dae3f3;	/* [サブメニュー]の左の隙間 */
+  }
+  .skin-blue .sidebar-menu .treeview-menu > li > a {
+    background-color: #404040;	/* [サブメニュー]（未選択）背景 */
+    color: #d9d9d9;				/* [サブメニュー]（未選択）アイコン＆文字列 */
+  }
+  .skin-blue .sidebar-menu .treeview-menu > li.active > a,
+  .skin-blue .sidebar-menu .treeview-menu > li > a:hover {
+    background-color: #dae3f3;	/* [サブメニュー]（選択中、hover）背景  */
+    color: #7070c0;				/* [サブメニュー]（選択中、hover）アイコン＆文字列  */
+  }
+
+  .form-control {
+    background: #ffffff;	/* 入力項目 */
+  }
+
+  .form-group.has-error .denColDec {
+    border-color: #dd4b39;
+    box-shadow: none;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  /*******************
+   * Header Modify
+   *******************/
+  .denMainTitle {
+    float: left;
+    font-size: 20px;
+    font-weight:bold;
+    color: #7f7f7f;
+    padding: 5px;
+   }
+   .denUserName {
+    padding: 10px 15px;
+   }  .denLogout {
+    float: right;
+    padding: 10px;
+    padding-right: 20px;
+  }
+  .denLogout > a {
+    background-color: #dadada;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #7f7f7f;
+    border-radius: 4px;
+    border: solid 2px #e2e2e2;
+  }
+
+  /*******************
+   * Content Modify
+   *******************/
+  .content-wrapper,
+  .main-footer {
+    background-color:#f2f2f2;	/* メイン部の最下位 */
+  }
+  .content-header {
+    padding-top:0px;
+  }
+  .content {
+    margin-top:0px;
+    padding:0px 0px 10px 0px;
+  }
+  .box {
+    border: solid 0px #fff0c8;
+    margin-top: 0px;
+  }
+  .box-header {
+    background-color:#fff0c8;	/* height:0なので、表示されない */
+    padding-top:0px;
+    padding-bottom:0px;
+    height: 0;
+  }
+  .box-body {
+    background-color:#f2f2f2;	/* メイン部（検索条件、一覧）のベース */
+    padding-top:5px;
+    padding-bottom:2px;
+    padding-right: 20px;
+  }
+  .box-title {
+    font-weight:bold;
+    color:rgba(64, 64, 64, 0.0);
+  }
+  .box-tools {
+    margin-right: 5px;
+  }
+  .form-group {
+    margin-bottom: 6px;;
+  }
+  .denSearchBox {
+    background-color:#f2f2f2;	/* メイン部の検索条件部 */
+    padding: 15px 20px 10px 15px;
+  }
+  .denMainBox {
+    padding-right:29px;
+  }
+  .denActionBlock {
+    padding-left:10px;
+    padding-right:29px;
+  }
+  .denFooter {
+  }
+
+  /*******************
+   * Login Content Modify
+   *******************/
+  .login-page {
+    background-color:#EDF7FF;
+  }
+  .login-content-wrapper {
+    margin-top:0px;
+    min-height: 94vh;
+    background-color:#EDF7FF;
+  }
+  .login-content-header {
+    background-color:#9dc3e6;
+    min-height: 6vh;
+    padding-top:0px;
+    padding-bottom:16px;
+  }
+  .login-content {
+    margin-top:-10px;
+    padding:0px 0px 10px 0px;
+    background-color:#EDF7FF;
+  }
+  .login-content-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#EDF7FF;
+    text-align: center;
+  }
+  .login-box {
+    margin-top: 10px;
+    background-color:#EDF7FF;
+  }
+  .login-box-header {
+    background-color:#EDF7FF;
+    padding-top:20px;
+    height: 0;
+  }
+  .login-box-body {
+    background-color:#ffffff;
+    margin-top:15px;
+    padding-right: 20px;
+  }
+
+  /*******************
+   * Modal Modify
+   *******************/
+  .modal-content {
+    border-radius: 4px;
+    background-color: #f2f2f2;		/* モーダル画面の最下位 */
+  }
+  .modal-header {
+    border-radius: 4px 4px 0px 0px;
+    background-color: #9dc3e6;		/* モーダル画面のヘッダ部 */
+    margin:5px 0px 5px 0px;
+    padding:5px 10px 5px 10px;
+    height: 38px;
+  }
+  .modal-body {
+    padding:10px 10px 5px 10px;
+  }
+  .modal-footer {
+    margin:5px 0px 5px 0px;
+    padding:5px 10px 5px 10px;
+    height: 47px;
+  }
+  .modal-title {
+    color: #404040;
+    font-weight:bold;
+  }
+
+  /*******************
+   * Button Modify
+   *******************/
+  /* 一覧外のボタン用 */
+  .btn-primary {
+    background-color: #50aec8;
+    color: #f2f2f2;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-primary:active {
+    background-color: #404040;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-primary:focus {
+    background-color: #7cc3d6;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-primary:hover {
+    background-color: #3288a0;
+    color: #f2f2f2;
+    border: outset 2px #fff0c8;
+  }
+
+  /* 一覧内のボタン用 */
+  .btn-default {
+    background-color: #50aec8;
+    color: #f2f2f2;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-default:active {
+    background-color: #40f040;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-default:focus {
+    background-color: #7cc3d6;
+    color: #f2f2f2;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-default:hover {
+    background-color: #3288a0;
+    color: #f2f2f2;
+    border: outset 2px #fff0c8;
+  }
+
+  /* [検索]ボタン用 */
+  .btn-search {
+    background-color: #e63232;
+    color: #f2f2f2;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+    width: 80px;
+  }
+  .btn-search:active {
+    background-color: #404040;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-search:focus {
+    background-color: #eb5b5b;
+    color: #f2f2f2;
+    font-weight:bold;
+    border: outset 2px #fff0c8;
+  }
+  .btn-search:hover {
+    background-color: #ca1818;
+    color: #f2f2f2;
+    border: outset 2px #fff0c8;
+  }
+
+  /*******************
+   * Table Modify
+   *******************/
+  .table {
+  }
+  .table > thead {
+    background-color:#bfbfbf;
+  }
+  .table > tbody {
+    background-color:#c8e8ff;	/* 一覧部の偶数番目 */
+  }
+  .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #ffffff;	/* 一覧部の奇数番目 */
+  }
+  .table-hover > tbody > tr:hover {
+    background-color: #ead6c7;	/* 一覧部のhover */
+  }
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span:focus {
+    border: sorid 1px #fff0c8;
+    background-color: #404040;
+  }
+
+  /* Vue.js用：ヘッダ部 */
+  .v-data-table thead {
+    background: #d9d9d9;
+  }
+  /* Vue.js用：一覧部の偶数番目 */
+  .v-data-table tbody {
+    background: #c8e8ff;
+  }
+  /* Vue.js用：一覧部の奇数番目 */
+  .v-data-table tbody tr:nth-of-type(odd) {
+    background: #ffffff;
+  }
+  /* Vue.js用：一覧部のhover */
+  .v-data-table tbody tr:hover td {
+    background: #ead6c7;
+  }
+
+  /*******************
+   * レイアウト調整用
+   *******************/
+  .denYokoContainer {
+    overflow: hidden;
+    margin:0;
+    padding:0;
+  }
+  .denYokoContainer:after {
+    clear: both;
+  }
+  .denYoko {
+    float: left;
+    margin:0;
+    padding:0;
+  }
+  .denRelative {
+    position: relative;
+  }
+  .denAbsolute {
+    position: absolute;
+  }
+
+  .denSubBox {
+    position: relative;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    height: 40px;
+    background-color:#f2f2f2;	/* 検索条件部の各条件項目 */
+    border: solid 1px #f2f2f2;
+  }
+  .denSubBox-selectbox {
+    position: relative;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    height: 120px;
+    background-color:#bfbfbf;
+    border: solid 1px #bfbfbf;
+  }  
+  .denSubBox:after {
+    clear: both;
+  }
+  .denSubBox-header {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    padding:0;
+    vertical-align: middle;
+  }
+  .denSubBox-body {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    margin-left: 10px;	/* 検索条件のタイトルの幅を変更したい場合は、ここを修正してください */
+    padding:0;
+    padding-right: 5px;
+    color:#404040;
+  }
+  .denSubBox-file-body {
+    margin-left: 180px;
+	width: calc(100% - 180px);
+  }
+  .denSubBox-tail {		/* 現在、未使用 */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    margin-left: 310px;	/* 検索条件のタイトルの幅を変更したい場合は、ここを修正してください */
+    padding:0;
+    padding-right: 5px;
+    color:#404040;
+  }
+  .denSubBox-title {
+    margin-left: 5px;
+    font-weight:bold;
+    color:#404040;
+  }
+  .denTableFixed {
+     table-layout: fixed;
+     word-wrap: break-word;
+     word-break: break-all;
+  }
+  .denSrcollX {
+    overflow-x:scroll;
+  }
+  .denTableSrcollHead {
+    display:block;
+  }
+  .denTableSrcollBody {
+    display:block;
+    overflow-y:scroll;
+  }
+  .denMsgArea {
+    padding-left: 5px;
+  }
+
+  /*******************
+   * 入力項目
+   *******************/
+  /* 入力項目内を[X]ボタンで消去できるようにする（bootstrapで消されてしまうので復活させる） */
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+  }
+
+  /*******************
+   * 各部品サイズ（単一項目用）　（注： width=116px未満の場合は×ボタンが表示されません・・・IE仕様）
+   *******************/
+  /* 日付 */
+  .denDate {
+    width: 180px;
+  }
+  /* 年月 */
+  .denYearMonth {
+    width: 142px;
+  }
+  /* 数量 */
+  .denNum {
+    width: 116px;
+    text-align: right;
+  }
+  /* 金額 */
+  .denAmount {
+    width: 116px;
+    text-align: right;
+  }
+  /* ファイル */
+  .denFile {
+    width: 100%;
+  }
+  /* ユーザID */
+  .denUserId {
+    width: 100px;
+  }
+  /* 個人ID */
+  .denPersonId {
+    width: 140px;
+  }
+  /* 氏名 */
+  .denPersonFullName {
+    width: 320px;
+  }
+  /* アカウント */
+  .denPersonAccount {
+    width: 100px;
+  }
+
+  /* 操作区分（コンボ用） */
+  .denOpeType {
+  }
+
+  /*******************
+   * 各部品サイズ（テーブル列用）
+   *******************/
+  /* No */
+  .denNoCol {
+    width: 20px;
+  }
+  .denNoCol_Head {
+    width: calc(20px + 39px);
+  }
+
+  /* 日付 */
+  .denDateCol {
+    width: 46px;
+  }
+  .denDateCol_Head {
+    width: calc(46px + 39px);
+  }
+
+  /* 時刻 */
+  .denTimeCol {
+    width: 30px;
+  }
+  .denTimeCol_Head {
+    width: calc(30px + 39px);
+  }
+
+  /* 日時 */
+  .denTimestampCol {
+    width: 170px;
+  }
+  .denTimestampCol_Head {
+    width: calc(170px + 39px);
+  }
+
+  /* 期 */
+  .denPeriodCol {
+    width: 100px;
+  }
+  .denPeriodCol_Head {
+    width: calc(100px + 39px);
+  }
+
+  /* 期（短め） */
+  .denPeriodShortCol {
+    width: 40px;
+  }
+  .denPeriodShortCol_Head {
+    width: calc(40px + 39px);
+  }
+
+  /* チェックボックス */
+  .denCheckBoxCol {
+    width:30px;
+  }
+  .denCheckBoxCol_Head {
+    width: calc(30px + 39px);
+  }
+
+  /* ボタン（短め） */
+  .denButtonShortCol {
+    width:30px;
+    text-align: center;
+  }
+  .denButtonShortCol_Head {
+    width: calc(30px + 17px);	/* ソートが無い */
+  }
+
+  /* ボタン（2文字） */
+  .denButton2Col {
+    width:44px;
+    text-align: center;
+  }
+  .denButton2Col_Head {
+    width: calc(44px + 17px);	/* ソートが無い */
+  }
+
+  /* ボタン（4文字） */
+  .denButton4Col {
+    width:74px;
+    text-align: center;
+  }
+  .denButton4Col_Head {
+    width: calc(74px + 17px);	/* ソートが無い */
+  }
+
+  /* ボタン（長め） */
+  .denButtonLongCol {
+    width:100px;
+    text-align: center;
+  }
+  .denButtonLongCol_Head {
+    width: calc(100px + 17px);	/* ソートが無い */
+  }
+
+  /* 数量 */
+  .denNumCol {
+    width:29px;
+  }
+  .denNumCol_Head {
+    width: calc(29px + 39px);
+  }
+
+  /* 日付+数量 */
+  .denDateNumCol {
+    width: 68px;
+  }
+  .denDateNumCol_Head {
+    width: calc(68px + 39px);
+  }
+
+  /* 金額 */
+  .denAmountCol {
+    width:80px;
+  }
+  .denAmountCol_Head {
+    width: calc(80px + 39px);
+  }
+
+  /* 金額（短め） */
+  .denAmountShortCol {
+    width:40px;
+  }
+  .denAmountShortCol_Head {
+    width: calc(40px + 39px);
+  }
+
+  /* 状態 */
+  .denStatusCol {
+    width:40px;
+  }
+  .denStatusCol_Head {
+    width: calc(40px + 39px);
+  }
+
+  /* ユーザID */
+  .denUserIdCol {
+    width:80px;
+  }
+  .denUserIdCol_Head {
+    width: calc(80px + 39px);
+  }
+
+  /* 個人ID */
+  .denPersonIdCol {
+    width:80px;
+  }
+  .denPersonIdCol_Head {
+    width: calc(80px + 39px);
+  }
+
+  /* アカウント */
+  .denPersonAccountCol {
+    width:100px;
+  }
+  .denPersonAccountCol_Head {
+    width: calc(100px + 39px);
+  }
+
+  /* 権限 */
+  .denPersonAuthorityCol {
+    width:100px;
+  }
+  .denPersonAuthorityCol_Head {
+    width: calc(100px + 39px);
+  }
+
+  /* 年齢 */
+  .denAgeCol {
+    width:29px;
+  }
+  .denAgeCol_Head {
+    width: calc(29px + 39px);
+  }
+
+  /* 性別 */
+  .denSexCol {
+    width: 46px;
+  }
+  .denSexCol_Head {
+    width: calc(46px + 39px);
+  }
+
+  /* 日付(一覧内の入力項目) */
+  .denDateColInput {
+    width: 68px;
+	text-align: center;
+  }
+  .denDateColInput_Head {
+    width: calc(68px + 39px);
+  }
+  .denDateInput {
+    width: 92px;
+	text-align: center;
+  }
+
+  /* 数量(一覧内の入力項目) */
+  .denNumColInput {
+    width: 29px;
+	text-align: center;
+  }
+  .denNumColInput_Head {
+    width: calc(29px + 39px);
+  }
+  .denNumInput {
+    width: 38px;
+	text-align: right;
+  }
+
+  /* 年齢(一覧内の入力項目) */
+  .denAgeColInput {
+    width: 29px;
+	text-align: center;
+  }
+  .denAgeColInput_Head {
+    width: calc(29px + 39px);
+  }
+  .denAgeInput {
+    width: 38px;
+	text-align: right;
+  }
+
+  /* フロア名 */
+  .denFloorNameCol {
+    width:20px;
+  }
+  .denFloorNameCol_Head {
+    width: calc(20px + 39px);
+  }
+
+  /* 非表示列 */
+  .denNoViewCol {
+     width: 0;
+     min-width: 0;
+     max-width: 0;
+     visibility: hidden;
+     display:none;
+  }
+
+  /*******************
+   * 各データ（テーブル列用）
+   *******************/
+  /* 数量 */
+  .denNumDataCol {
+    text-align: right;
+  }
+  /* 日付 */
+  .denDateDataCol {
+    text-align: center;
+  }
+  /* 時刻 */
+  .denTimeDataCol {
+    text-align: center;
+  }
+  /* 日時 */
+  .denTimestampDataCol {
+    text-align: center;
+  }
+  /* ボタン（長め） */
+  .denButtonLongDataCol {
+    text-align: center;
+  }
+  /* 状態 */
+  .denStatusDataCol {
+    text-align: center;
+  }
+  /* 個人ID */
+  .denPersonIdDataCol {
+  }
+  /* 年齢 */
+  .denAgeDataCol {
+    text-align: right;
+  }
+  /* 性別 */
+  .denSexDataCol {
+    text-align: center;
+  }
+
+  /*******************
+   * コンテンツ 表示
+   *******************/
+  /* 前行と同じ */
+  .denSameBefore {
+    opacity: 0.5;
+  }
+
+  /* 状態：未完了 */
+  .denStatIncomplete {
+    color: red;
+  }
+
+  /* 状態：エラーあり */
+  .denStatError {
+    color: maroon;
+  }
+
+  /* 状態：警告 */
+  .denStatWarning {
+    color: red;
+  }
+
+  /*******************
+   * 固定ヘッダ
+   *******************/
+  .denTitleFixed {
+	position: fixed;
+	/*表示位置*/
+	top: 0px;
+	/* bottom: 0px; topを無効にして、bottomを有効にすれば、画面の下の方に表示されます */
+	/* left: 210px;	/* leftは、デバイスやメニュー開閉により、動的に変化します */
+	right: 27px;
+	/*余白*/
+	margin: 0px 0px 0px 0px;
+	/*装飾*/
+	background: #bfbfbf;
+	opacity: 1.0;
+  }
+  /* 横型Windowの場合 */
+  @media (min-width: 768px) {
+    /* デフォルト */
+    .denTitleFixed {
+		left: 210px;
+    }
+    /* メニューが開いている場合 */
+	.denTitleMenuTrue {
+		left: 210px;
+	}
+    /* メニューが閉じている場合 */
+	.denTitleMenuFalse {
+		left: 60px;
+	}
+  }
+  /* 縦型Window(iPad縦型以下)の場合 */
+  @media (max-width: 767px) {
+    /* デフォルト */
+	.denTitleFixed {
+		left: 10px;
+    }
+    /* メニューが開いている場合 */
+	.denTitleMenuTrue {
+		left: 210px;
+	}
+    /* メニューが閉じている場合 */
+	.denTitleMenuFalse {
+		left: 10px;
+	}
+  }
+  /* PCサイズの場合 */
+  @media (min-width: 1081px) {
+    /* PC用の固定ヘッダを表示する */
+    .denTitlePc {
+		display: block;
+    }
+    /* サイネージ用の固定ヘッダを表示しない */
+    .denTitleSignage {
+		display: none;
+    }
+    /* PC用のテーブル列を表示する */
+    .denViewColPc {
+    }
+    /* PC用の項目を表示する */
+    .denViewItemPc {
+		display: block;
+    }
+  }
+  /* サイネージサイズの場合 */
+  @media (max-width: 1080px) {
+    /* PC用の固定ヘッダを表示しない */
+    .denTitlePc {
+		display: none;
+    }
+    /* サイネージ用の固定ヘッダを表示する */
+    .denTitleSignage {
+		display: block;
+    }
+    /* PC用のテーブル列を表示しない */
+    .denViewColPc {
+		visibility: hidden;
+		width: 0;
+		min-width: 0;
+		max-width: 0;
+		display: none;
+    }
+    /* PC用の項目を表示しない */
+    .denViewItemPc {
+		display: none;
+    }
+  }
+
+  .denTitleFixed th {
+    text-align: center;
+    vertical-align: middle;
+  }
